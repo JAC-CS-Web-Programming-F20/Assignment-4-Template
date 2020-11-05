@@ -116,7 +116,7 @@ Example request/response:
 
 These are going to be by far the most challenging pieces to implement which is why the `CommentBrowserTest.php` is worth more than the other three browser test suites. To try and help you with this, let's take a look at the diagram below:
 
-![Comment and Replies](Comment-Replies.png)
+![Comment and Replies](docs/Comment-Replies.png)
 
 We have 4 comments with IDs `1`, `2`, `3`, and `4`. `1` has a parent of `null` which means it's a "top level comment". In other words, it's not a reply to anything. `2` and `4` are replies to `1`. `3` is a reply to `2`.
 
