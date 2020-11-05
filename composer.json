@@ -1,0 +1,21 @@
+{
+	"require": {
+		"league/plates": "^3.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.3",
+		"fzaninotto/faker": "^1.9",
+		"guzzlehttp/guzzle": "^7.0",
+		"php-webdriver/webdriver": "^1.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"AssignmentFour\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"AssignmentFourTests\\": "tests/"
+		}
+	}
+}
